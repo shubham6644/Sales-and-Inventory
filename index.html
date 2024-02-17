@@ -1,0 +1,55 @@
+<html>
+    <head>
+		<style>
+			.button:hover{
+				background-color: blue;
+			}
+			h1{
+			    margin-top: 10px;
+			}
+		</style>
+	</head>
+		<div align="center">
+		<body style="background-image: url('dm.jpg');background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;width: 100%;">	
+		<form name="form" method="post" action="login_save.php">
+
+		<table border="2" height="50%" width="30%">
+		
+			 <tr> <td align="center" colspan="2" bgcolor="#66d9ff"><B><font color="black"><h1>LOGIN FORM</h1></font></B></td> </tr>
+		<tr>
+			<th bgcolor="#66d9ff">
+				<font color="black"> 
+				 Username/Email:
+				</font>		
+			</th>
+			<td bgcolor="#66d9ff"><input type="text" name="fname" value="" placeholder="Enter Your Name"></td>
+		</tr>
+        <tr > 
+			<th bgcolor="#66d9ff">
+				<font color="black">
+		          Password:
+			    </font>
+			</th>
+			<td bgcolor="#66d9ff"><input type="password" name="password" value=""placeholder="Enter Your Password"></td>
+		</tr>
+		<tr>
+			<th colspan="2" bgcolor="#66d9ff">
+				<a href="home.php" > <button type= "Sign in" name="Signin"value="Signin" class="button">Sign in</button></a>&nbsp; &nbsp; &nbsp; &nbsp;
+		        <button type= "reset" name="reset"value="reset" class="button">Reset</button>
+			</th>
+		</tr>
+		<tr>
+			<th colspan="2" bgcolor="#66d9ff">
+                 <a href="forget.html" style="text-decoration-line: none;"><font color="blue">forget password </font></a>&nbsp; &nbsp; &nbsp; &nbsp;
+                 <a href="signup.html" style="text-decoration-line: none;"><font color="blue">Sign Up!</font></a>
+			</th>
+	   </tr>
+		</table>
+		
+	</form>
+	</body>
+	</div>
+</html>

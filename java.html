@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+
+        function cnum() {
+            var num = document.getElementById("num").value;
+            if (num == "") {
+                alert("This field can't be blank");
+            }
+            else {
+                alert("Your entered number=" + num);
+                alert("Your cube value is= " + num * num * num);
+            }
+
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" name="number" value="" id="num">
+        <input type="button" name="" value="click me" onclick="cnum();">
+    </form>
+
+
+</body>
+
+</html>
